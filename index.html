@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabs on vanila JS</title>
+  <link rel="shortcut icon" href="./img/space-icon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:900|Open+Sans:400&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+</head>
+<body>
+  
+ <section class="tabs">
+  <div class="container">
+    <div class="tabs__wrapper">
+      
+      <ul class="buttons-wrapper">
+        <li class="tabs__button" data-tab="#tab_1">Night sky</li>
+        <li class="tabs__button" data-tab="#tab_2">Solar System</li>
+        <li class="tabs__button" data-tab="#tab_3">Earth</li>
+      </ul>
+
+      <div class="tabs__content" id="tab_1">
+        <h2 class="tabs__title">Night sky</h2>
+        <p class="tabs__desc">The Milky Way, our home galaxy, is a vast spiral system containing billions of stars, planets, and celestial objects.
+        Spanning approximately 100,000 light-years in diameter, it showcases a majestic band of stars across the night sky.
+        Within its spiral arms, nebulae, and stellar clusters, diverse astronomical phenomena unfold. Earth resides in one of
+        the spiral arms, known as the Orion Arm. The galactic center harbors a supermassive black hole called Sagittarius A*,
+        exerting gravitational influence. The Milky Way's cosmic tapestry captivates astronomers, offering insights into
+        galactic evolution and the universe's intricate web. Observing its beauty fosters a deeper appreciation for the cosmic
+        ballet in which our solar system participates.</p>
+        <img src="./img/noch.jpg" alt="" class="tabs__image">
+      </div>
+
+      <div class="tabs__content" id="tab_2">
+        <h2 class="tabs__title">Solar System</h2>
+        <p class="tabs__desc">In the vastness of the cosmos, our Solar System spins tales of celestial wonder. At its heart, the radiant Sun
+        orchestrates a cosmic ballet. The planets, like characters on a grand stage, each have a unique role. Mercury, the swift
+        messenger, races closest to the Sun. Venus, cloaked in clouds, hides mysteries beneath. Earth, a vibrant blue orb, teems
+        with life. Mars, the red wanderer, whispers of ancient rivers. Jupiter, the giant guardian, commands a retinue of moons.
+        Saturn, adorned with majestic rings, dazzles with cosmic jewelry. Uranus and Neptune, the ice giants, dance in the
+        distant realms. Together, they compose a stellar symphony, captivating stargazers across the universe.</p>
+        <img src="./img/sun.jpg" alt="" class="tabs__image">
+      </div>
+
+      <div class="tabs__content" id="tab_3">
+        <h2 class="tabs__title">Earth</h2>
+        <p class="tabs__desc">In the vast cosmic expanse, a jewel named Earth emerges, a beacon of life and beauty. A symphony of landscapes unfolds
+        beneath the heavens. Oceans, vast and deep, cradle secrets of ancient tales. Continents, painted with diversity, host
+        the dance of ecosystems. Mountains stand as sentinels of time, whispering stories etched in rock. Rivers weave
+        narratives through valleys, sustaining the tapestry of existence. The atmosphere, a delicate cloak, shelters life
+        beneath its azure embrace. Seasons change, birthing renewal, as flora and fauna harmonize in the grand theatre of
+        existence. Amidst the celestial ballet, Earth stands as a sanctuary of wonders, a testament to the magic of the cosmos.</p>
+        <img src="./img/earth.jpg" alt="" class="tabs__image">
+      </div>
+
+    </div>
+  </div>
+ </section>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
